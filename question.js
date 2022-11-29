@@ -144,7 +144,7 @@ function showProgress() {
  
 function showScores() {
     var gameOverHTML = "<h1>Result</h1>";
-    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/6" + "</h2>";
+    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/6" + "</h2>" + "<a href='https://www.milesccoleman.com/misinformationethicsquiz/'>Restart Quiz</a>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
 };
