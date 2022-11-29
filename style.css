@@ -1,0 +1,231 @@
+
+/** code by webdevtrick (https://webdevtrick.com) **/
+body {
+    background-color: white; 
+    }
+
+.grid {
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+  	margin-left: 15%;
+  	width: 70%;
+  	padding: 20px;
+    
+}
+ 
+.grid h1 {
+    font-family: "Verdana";
+    background-color: ;
+    font-size: 2em;
+    text-align: center;
+    color: black; 
+    padding: 2px 0px;
+    
+}
+ 
+#score {
+    color: black; 
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 3em;
+    color: black; 
+    margin; auto; 
+    display:block;
+    background-color: white; 
+}
+
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0{
+    background-color: #b424ed;
+    width: 375px;
+    color: #fff;
+    border: none;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    font-size: 2.5em; 
+}
+
+#btn1 {
+    background-color: #4486f2;
+    width: 375px;
+    color: #fff;
+    border: none;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    font-size: 2.5em; 
+}
+ 
+#btn0:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+#btn1:hover{
+    cursor: pointer;
+    background-color: #175fd4;
+}
+ 
+#btn0:focus, #btn1:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: black; 
+    font:bold 2em verdana,arial;
+}
+
+
+#modalContainer {
+    background-color:rgba(0, 0, 0, 0.7);
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    z-index:10000;
+}
+
+#alertBox {
+    position:float;
+    margin-top:50px; ;
+    border:1px solid #666;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-position:20px 30px;
+    left: 60.5px; 
+}
+
+#modalContainer > #alertBox {
+    position:fixed;
+    width: 85%; 
+}
+
+#alertBox h1 {
+    margin:0;
+    font:bold 4em verdana,arial;
+    background-color: white; 
+    border:0 none;
+    color: red;
+    padding:2px 0 2px 5px;
+    text-align: center; 
+}
+
+#alertBox p {
+    font:1.5em verdana,arial;
+    padding:30px;
+	width: 85%; 
+	}
+
+#alertBox #closeBtn {
+    display:block;
+    position:relative;
+    margin:5px auto;
+    padding:7px;
+    border:none;
+    width:25%; 
+    font: bold 1.5em verdana,arial;
+    text-align:center;
+    color:black;
+    background-color: turquoise;
+    text-decoration:none;
+}
+
+#alertBox #closeBtn:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+HTML  CSS Result  
+EDIT ON
+
+ html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+  width: 90%
+}
+
+#exp {
+width: 100%; 
+}
+
+#header {
+  font-family:monospace;
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+
+
+
+Resources 1× 0.5× 0.25× Rerun
