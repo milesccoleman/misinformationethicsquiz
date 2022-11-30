@@ -1,5 +1,4 @@
 
-/** code by webdevtrick (https://webdevtrick.com) **/
 body {
     background-color: white; 
     }
@@ -117,7 +116,7 @@ body {
 }
 
 #alertBox p {
-    font:1.5em verdana,arial;
+    font:1.25em verdana,arial;
     padding:30px;
 	width: 85%; 
 	}
