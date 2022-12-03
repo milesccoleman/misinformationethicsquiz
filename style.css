@@ -191,14 +191,20 @@ width: 100%;
 }
 #reddit {
 background-color: black; 
+border-style: solid;  
+border-color: white; 
 }
 
 #twitter {
 background-color: black; 
+border-style: solid;  
+border-color: white; 
 }
 
 #youtube {
-background-color: black; 
+background-color: black;
+border-style: solid;  
+border-color: white; 
 }
 
 #header {
